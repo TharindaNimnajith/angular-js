@@ -13,7 +13,6 @@ usually involves the following:
    e.g. [ant build script](https://github.com/h5bp/ant-build-script))
 5. Deploy your site.
 
-
 ## Basic structure
 
 A basic HTML5 Boilerplate site initially looks something like this:

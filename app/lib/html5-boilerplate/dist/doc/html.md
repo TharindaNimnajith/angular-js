@@ -9,9 +9,7 @@ By default, HTML5 Boilerplate provides two `html` pages:
   basis of all pages on your website
 * [`404.html`](#404html) - a placeholder 404 error page
 
-
 ## `index.html`
-
 
 ### The `no-js` Class
 
@@ -19,7 +17,6 @@ The `no-js` class is provided in order to allow you to more easily and
 explicitly add custom styles based on whether JavaScript is disabled
 (`.no-js`) or enabled (`.js`). Using this technique also helps [avoid the
 FOUC](https://www.paulirish.com/2009/avoiding-the-fouc-v3/).
-
 
 ## Language Attribute
 
@@ -37,22 +34,21 @@ important because:
 
 1) the charset declaration (`<meta charset="utf-8">`):
 
-   * must be included completely within the [first 1024 bytes of the
-     document](https://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset)
+    * must be included completely within the [first 1024 bytes of the
+      document](https://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset)
 
-   * should be specified as early as possible (before any content that could
-     be controlled by an attacker, such as a `<title>` element) in order to
-     avoid a potential [encoding-related security
-     issue](https://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in
-     Internet Explorer
+    * should be specified as early as possible (before any content that could
+      be controlled by an attacker, such as a `<title>` element) in order to
+      avoid a potential [encoding-related security
+      issue](https://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in
+      Internet Explorer
 
 2) the meta tag for compatibility mode
    (`<meta http-equiv="x-ua-compatible" content="ie=edge">`):
 
-   * [needs to be included before all other tags except for the `<title>` and
-     the other `<meta>`
-     tags](https://msdn.microsoft.com/en-us/library/cc288325.aspx)
-
+    * [needs to be included before all other tags except for the `<title>` and
+      the other `<meta>`
+      tags](https://msdn.microsoft.com/en-us/library/cc288325.aspx)
 
 ### `x-ua-compatible`
 
@@ -95,26 +91,26 @@ Starting with Internet Explorer 11, [document modes are
 deprecated](https://msdn.microsoft.com/library/bg182625.aspx#docmode).
 If your business still relies on older web apps and services that were
 designed for older versions of Internet Explorer, you might want to consider
-enabling [Enterprise Mode](https://blogs.msdn.microsoft.com/ie/2014/04/02/stay-up-to-date-with-enterprise-mode-for-internet-explorer-11/) throughout your company.
-
+enabling [Enterprise Mode](https://blogs.msdn.microsoft.com/ie/2014/04/02/stay-up-to-date-with-enterprise-mode-for-internet-explorer-11/)
+throughout your company.
 
 ## Meta Description
 
-The `description` meta tag provides a short description of the page. 
-In some situations this description is used as a part of the snippet 
+The `description` meta tag provides a short description of the page.
+In some situations this description is used as a part of the snippet
 shown in the search results.
 
 ```html
 <meta name="description" content="This is a description">
 ```
 
-
 ## Mobile Viewport
 
 There are a few different options that you can use with the [`viewport` meta
 tag](https://docs.google.com/present/view?id=dkx3qtm_22dxsrgcf4 "Viewport and
 Media Queries - The Complete Idiot's Guide"). You can find out more in [the
-Apple developer docs](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html).
+Apple developer docs](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)
+.
 HTML5 Boilerplate comes with a simple setup that strikes a good balance for general use cases.
 
 ```html
@@ -173,7 +169,8 @@ Javascript.
 There are some misconceptions about Modernizr and polyfills. It's important
 to understand that Modernizr just handles feature checking, not polyfilling
 itself. The only thing Modernizr does regarding polyfills is that the team
-maintains [a huge list of cross Browser polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills).
+maintains [a huge list of cross Browser polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+.
 
 ## The Content Area
 

@@ -17,7 +17,6 @@ This starting CSS does not rely on the presence of
 or [Modernizr](https://modernizr.com/), and it is ready to use no matter what
 your development preferences happen to be.
 
-
 ## Normalize.css
 
 In order to make browsers render all elements more consistently and in line
@@ -38,7 +37,6 @@ For more information about Normalize.css, please refer to its [project
 page](https://necolas.github.com/normalize.css/), as well as this
 [blog post](http://nicolasgallagher.com/about-normalize-css/).
 
-
 ## Useful defaults
 
 Several base styles are included that build upon `Normalize.css`. These
@@ -52,7 +50,6 @@ styles:
 
 You are free and even encouraged to modify or add to these base styles as your
 project requires.
-
 
 ## Common helpers
 
@@ -99,7 +96,6 @@ contains its floated children.
 Over the years there have been many variants of the clearfix hack, but currently,
 we use the [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/).
 
-
 ## Media Queries
 
 HTML5 Boilerplate makes it easy for you to get started with a
@@ -117,7 +113,6 @@ If you do not want to take the _mobile first_ approach, you can simply edit or
 remove these placeholder media queries. One possibility would be to work from
 wide viewports down, and use `max-width` media queries instead (e.g.:
 `@media only screen and (max-width: 480px)`).
-
 
 ## Print styles
 
@@ -143,15 +138,15 @@ At printing time, these styles will:
   [supporting browsers](https://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29#Grammar_and_rules)
   that they should:
 
-  * ensure the table header (`<thead>`) is [printed on each page spanned by the
-    table](http://css-discuss.incutio.com/wiki/Printing_Tables)
-  * prevent block quotations, preformatted text, images and table rows from
-    being split onto two different pages
-  * ensure that headings never appear on a different page than the text they
-    are associated with
-  * ensure that
-    [orphans and widows](https://en.wikipedia.org/wiki/Widows_and_orphans) do
-    [not appear on printed pages](https://css-tricks.com/almanac/properties/o/orphans/)
+    * ensure the table header (`<thead>`) is [printed on each page spanned by the
+      table](http://css-discuss.incutio.com/wiki/Printing_Tables)
+    * prevent block quotations, preformatted text, images and table rows from
+      being split onto two different pages
+    * ensure that headings never appear on a different page than the text they
+      are associated with
+    * ensure that
+      [orphans and widows](https://en.wikipedia.org/wiki/Widows_and_orphans) do
+      [not appear on printed pages](https://css-tricks.com/almanac/properties/o/orphans/)
 
 The print styles are included along with the other `css` to [avoid the
 additional HTTP request](http://www.phpied.com/delay-loading-your-print-css/).

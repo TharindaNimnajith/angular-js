@@ -17,6 +17,7 @@ npm install angular
 Then add a `<script>` to your `index.html`:
 
 ```html
+
 <script src="/node_modules/angular/angular.js"></script>
 ```
 
@@ -31,6 +32,7 @@ bower install angular
 Then add a `<script>` to your `index.html`:
 
 ```html
+
 <script src="/bower_components/angular/angular.js"></script>
 ```
 

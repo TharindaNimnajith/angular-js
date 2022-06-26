@@ -7,7 +7,6 @@ Here is some useful advice for how you can make your project with HTML5
 Boilerplate even better. We don't want to include it all by default, as
 not everything fits with everyone's needs.
 
-
 * [App Stores](#app-stores)
 * [DNS prefetching](#dns-prefetching)
 * [Google Universal Analytics](#google-universal-analytics)
@@ -18,7 +17,6 @@ not everything fits with everyone's needs.
 * [Social Networks](#social-networks)
 * [URLs](#urls)
 * [Web Apps](#web-apps)
-
 
 ## App Stores
 
@@ -36,7 +34,8 @@ docs](https://developer.chrome.com/webstore/inline_installation).
 ### Smart App Banners in iOS 6+ Safari
 
 Stop bothering everyone with gross modals advertising your entry in the
-App Store. Include the following [meta tag](https://developer.apple.com/library/IOS/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html#//apple_ref/doc/uid/TP40002051-CH6-SW2)
+App Store. Include the
+following [meta tag](https://developer.apple.com/library/IOS/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html#//apple_ref/doc/uid/TP40002051-CH6-SW2)
 will unintrusively allow the user the option to download your iOS app,
 or open it with some data about the user's current state on the website.
 
@@ -123,7 +122,6 @@ Microsoft Ajax Content Delivery Network:
 * https://dev.chromium.org/developers/design-documents/dns-prefetching
 * https://blogs.msdn.microsoft.com/ie/2011/03/17/internet-explorer-9-network-performance-improvements/
 * http://dayofjs.com/videos/22158462/web-browsers_alex-russel
-
 
 ## Google Universal Analytics
 
@@ -391,7 +389,6 @@ plugin](https://www.google.com/search?ie=UTF-8&q=how+to+make+browser+search+plug
 <link rel="search" title="" type="application/opensearchdescription+xml" href="">
 ```
 
-
 ## Miscellaneous
 
 * Use [polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills).
@@ -413,7 +410,8 @@ plugin](https://www.google.com/search?ie=UTF-8&q=how+to+make+browser+search+plug
 
 * If you want to disable the automatic detection and formatting of possible
   phone numbers in Safari on iOS, use [`<meta name="format-detection"
-  content="telephone=no">`](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html/#//apple_ref/doc/uid/TP40008193-SW5).
+  content="telephone=no">`](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html/#//apple_ref/doc/uid/TP40008193-SW5)
+  .
 
 * Avoid development/stage websites "leaking" into SERPs (search engine results
   page) by [implementing X-Robots-tag
@@ -422,7 +420,6 @@ plugin](https://www.google.com/search?ie=UTF-8&q=how+to+make+browser+search+plug
 * Screen readers currently have less-than-stellar support for HTML5 but the JS
   script [accessifyhtml5.js](https://github.com/yatil/accessifyhtml5.js) can
   help increase accessibility by adding ARIA roles to HTML5 elements.
-
 
 ## News Feeds
 
@@ -456,9 +453,8 @@ attribute should contain the location of your pingback service.
 
 * High-level explanation: https://codex.wordpress.org/Introduction_to_Blogging#Pingbacks
 * Step-by-step example case: http://www.hixie.ch/specs/pingback/pingback-1.0#TOC5
-* PHP pingback service: https://web.archive.org/web/20131211032834/http://blog.perplexedlabs.com/2009/07/15/xmlrpc-pingbacks-using-php/
-
-
+* PHP pingback
+  service: https://web.archive.org/web/20131211032834/http://blog.perplexedlabs.com/2009/07/15/xmlrpc-pingbacks-using-php/
 
 ## Social Networks
 
@@ -584,32 +580,32 @@ For more information please see:
 * https://developers.google.com/webmasters/smartphone-sites/details#separateurls
 * https://developers.google.com/webmasters/smartphone-sites/feature-phones
 
-
 ## Web Apps
 
 There are a couple of meta tags that provide information about a web app when
 added to the Home Screen on iOS:
 
 * Adding `apple-mobile-web-app-capable` will make your web app chrome-less and
-provide the default iOS app view. You can control the color scheme of the
-default view by adding `apple-mobile-web-app-status-bar-style`.
+  provide the default iOS app view. You can control the color scheme of the
+  default view by adding `apple-mobile-web-app-status-bar-style`.
 
   ```html
+
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 ```
 
 * You can use `apple-mobile-web-app-title` to add a specific sites name for the
-Home Screen icon. This works since iOS 6.
+  Home Screen icon. This works since iOS 6.
 
   ```html
+
 <meta name="apple-mobile-web-app-title" content="">
 ```
 
 For further information please read the [official
 documentation](https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 on Apple's site.
-
 
 ### Apple Touch Icons
 
@@ -649,7 +645,6 @@ icons as written above.
 For a more comprehensive overview, please refer to Mathias' [article on Touch
 Icons](https://mathiasbynens.be/notes/touch-icons).
 
-
 ### Apple Touch Startup Image
 
 Apart from that it is possible to add start-up screens for web apps on iOS. This
@@ -666,7 +661,6 @@ However, it is possible to detect which start-up image to use with JavaScript.
 The Mobile Boilerplate provides a useful function for this. Please see
 [helpers.js](https://github.com/h5bp/mobile-boilerplate/blob/v4.1.0/js/helper.js#L336-L383)
 for the implementation.
-
 
 ### Chrome Mobile web apps
 

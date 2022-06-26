@@ -29,6 +29,7 @@ bower install angular-route
 Add a `<script>` to your `index.html`:
 
 ```html
+
 <script src="/bower_components/angular-route/angular-route.js"></script>
 ```
 

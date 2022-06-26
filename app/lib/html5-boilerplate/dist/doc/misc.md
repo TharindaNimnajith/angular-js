@@ -33,7 +33,6 @@ globally ignore:
 * More on global ignores: https://help.github.com/articles/ignoring-files/
 * Comprehensive set of ignores on GitHub: https://github.com/github/gitignore
 
-
 ## .editorconfig
 
 The `.editorconfig` file is provided in order to encourage and help you and
@@ -56,7 +55,6 @@ access to `.editorconfig` files, as they can disclose sensitive information!
 
 For more details, please refer to the [EditorConfig
 project](http://editorconfig.org/).
-
 
 ## Server Configuration
 
@@ -112,7 +110,6 @@ section](https://httpd.apache.org/docs/current/howto/htaccess.html).
 Notice that the original repo for the `.htaccess` file is [this
 one](https://github.com/h5bp/server-configs-apache).
 
-
 ## robots.txt
 
 The `robots.txt` file is used to give instructions to web robots on what can
@@ -120,8 +117,8 @@ be crawled from the website.
 
 By default, the file provided by this project includes the next two lines:
 
- * `User-agent: *` -  the following rules apply to all web robots
- * `Disallow:` - everything on the website is allowed to be crawled
+* `User-agent: *` - the following rules apply to all web robots
+* `Disallow:` - everything on the website is allowed to be crawled
 
 If you want to disallow certain pages you will need to specify the path in a
 `Disallow` directive (e.g.: `Disallow: /path`) or, if you want to disallow
@@ -136,9 +133,8 @@ you want to block access to private content, use proper authentication instead.
 
 For more information about `robots.txt`, please see:
 
-  * [robotstxt.org](http://www.robotstxt.org/)
-  * [How Google handles the `robots.txt` file](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt)
-
+* [robotstxt.org](http://www.robotstxt.org/)
+* [How Google handles the `robots.txt` file](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt)
 
 ## browserconfig.xml
 

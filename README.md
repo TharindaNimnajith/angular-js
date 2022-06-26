@@ -8,7 +8,6 @@ framework and a bunch of development and testing tools for instant web developme
 
 The seed app doesn't do much, just shows how to wire two controllers and views together.
 
-
 ## Getting Started
 
 To get you started you can simply clone the `angular-seed` repository and install the dependencies:
@@ -75,7 +74,6 @@ npm start
 
 Now browse to the app at [`localhost:8000/index.html`][local-app-url].
 
-
 ## Directory Layout
 
 ```
@@ -107,7 +105,6 @@ karma.conf.js         --> config file for running unit tests with Karma
 package.json          --> Node.js specific metadata, including development tools dependencies
 package-lock.json     --> Npm specific metadata, including versions of installed development tools dependencies
 ```
-
 
 ## Testing
 
@@ -142,8 +139,8 @@ predefined script to do this:
 npm run test-single-run
 ```
 
-
 <a name="e2e-testing"></a>
+
 ### Running End-to-End Tests
 
 The `angular-seed` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
@@ -189,7 +186,6 @@ the [Java Development Kit (JDK)][jdk] to be installed on your local machine. Che
 
 If JDK is not already installed, you can download it [here][jdk-download].
 
-
 ## Updating AngularJS and other dependencies
 
 Since the AngularJS framework library code and tools are acquired through package managers (e.g.
@@ -205,7 +201,6 @@ versions that match the version ranges specified in the `package.json` file.
 If you want to update a dependency to a version newer than what the specificed range would permit,
 you can change the version range in `package.json` and then run `npm run update-deps` as usual.
 
-
 ## Loading AngularJS Asynchronously
 
 The `angular-seed` project supports loading the framework and application scripts asynchronously.
@@ -219,7 +214,6 @@ npm run update-index-async
 
 This will copy the contents of the `angular-loader.js` library file into the `index-async.html`
 page. You can run this every time you update the version of AngularJS that you are using.
-
 
 ## Serving the Application Files
 
@@ -262,7 +256,6 @@ out what is the best way to host the static files to comply with the same origin
 applicable. Usually this is done by hosting the files by the backend server or through
 reverse-proxying the backend server(s) and web server(s).
 
-
 ## Continuous Integration
 
 ### Travis CI
@@ -275,23 +268,35 @@ tests when you push to GitHub.
 You will need to enable the integration between Travis and GitHub. See the
 [Travis website][travis-docs] for instructions on how to do this.
 
-
 ## Contact
 
 For more information on AngularJS please check out [angularjs.org][angularjs].
 
 
 [angularjs]: https://angularjs.org/
+
 [git]: https://git-scm.com/
+
 [http-server]: https://github.com/indexzero/http-server
+
 [jasmine]: https://jasmine.github.io/
+
 [jdk]: https://wikipedia.org/wiki/Java_Development_Kit
+
 [jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
+
 [karma]: https://karma-runner.github.io/
+
 [local-app-url]: http://localhost:8000/index.html
+
 [node]: https://nodejs.org/
+
 [npm]: https://www.npmjs.org/
+
 [protractor]: http://www.protractortest.org/
+
 [selenium]: http://docs.seleniumhq.org/
+
 [travis]: https://travis-ci.org/
+
 [travis-docs]: https://docs.travis-ci.com/user/getting-started

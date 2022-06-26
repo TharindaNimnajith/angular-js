@@ -27,7 +27,6 @@ errors in browsers that lack a `console`. The script will make sure that, if
 a console method isn't available, that method will have the value of empty
 function, thus, preventing the browser from throwing an error.
 
-
 ## vendor
 
 This directory can be used to contain all 3rd party library code.
